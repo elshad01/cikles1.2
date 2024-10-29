@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         // task 1
         System.out.println("task 1");
-        for (int i=0; i< 11; i=i+1){
+        for (int i=1; i< 10; i=i+1){
             System.out.println("Итерация цикла "+ i);
         }
 
@@ -20,7 +20,7 @@ public class Main {
 
         // task 4
         System.out.println("task 4");
-        for (int i=10; i > -11 && i< 11; i=i-1){
+        for (int i=10; i > -10 && i< 10; i=i-1){
             System.out.println("Итерация цикла "+ i);
         }
 
@@ -46,7 +46,7 @@ public class Main {
         System.out.println("task 8");
         int amount = 29000;
         int total =  0;
-        for ( int i = 0;  i < 13; i=i+1) {
+        for ( int i = 0;  i < 12; i=i+1) {
             total = total +amount;
             System.out.println("Месяц " + i +"  сумма накоплений равна "+ total+ " рублей");}
 
@@ -54,7 +54,7 @@ public class Main {
         System.out.println("task 9");
         int amountt = 29000;
         int totall =  0;
-        for ( int i = 0;  i < 12; i=i+1) {
+        for ( int i = 1;  i < 12; i=i+1) {
             totall= totall + totall/100;
             totall = totall + amountt;
             System.out.println("Месяц " + i +"  сумма накоплений равна "+ totall+ " рублей");}
@@ -63,11 +63,9 @@ public class Main {
         // task 10
         System.out.println("task 10");
         int nomber= 2;
-        for (int i= 2; i < 11; i=i+1) {
+        for (int i= 2; i < 10; i=i+1) {
             System.out.println( nomber+ "*"+ i+ " =" +nomber* i);
         }
-
-
 
 
 
